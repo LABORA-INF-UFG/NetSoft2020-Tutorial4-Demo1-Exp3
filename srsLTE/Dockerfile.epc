@@ -6,7 +6,6 @@ RUN git clone https://github.com/srsLTE/srsLTE.git
 WORKDIR srsLTE
 RUN git checkout release_19_12
 RUN mkdir build
-RUN apt-get install -y iptables
 RUN apt-get install -y g++
 RUN apt-get install -y libmbedtls-dev
 RUN apt-get install -y libconfig++-dev
@@ -22,10 +21,14 @@ RUN cd build && make install
 RUN cd build && srslte_install_configs.sh user
 RUN ldconfig
 RUN uhd_images_downloader
+RUN apt-get install -y iptables
 
 COPY epc.conf /root/.config/srslte/epc.conf
 COPY enb.conf /root/.config/srslte/enb.conf
 COPY user_db.csv /root/.config/srslte/user_db.csv
-COPY srsepc_if_masq.sh /srsepc/srsepc_if_masq.sh
+COPY srsepc_if_masq.sh srsepc/srsepc_if_masq.sh
+RUN chmod +x srsepc/srsepc_if_masq.sh
+COPY exec.sh /exec.sh
+RUN chmod +x /exec.sh
 
-CMD /srsepc/srsepc_if_masq.sh eth0 ; srsepc
+CMD /exec.sh ; srsepc
