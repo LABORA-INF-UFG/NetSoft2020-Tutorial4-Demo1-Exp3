@@ -5,7 +5,7 @@ NetSoft 2020 -Tutorial 4 - Demo1 Experiment 3
 
 ToDo ....
 <p align="center">
-    <img src="images/demo1-exp3.pdf"/> 
+    <iframe src="images/demo1-exp3.pdf"/> 
 </p>
 
 ## Installation
