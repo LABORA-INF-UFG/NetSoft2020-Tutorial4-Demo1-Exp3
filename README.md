@@ -5,7 +5,7 @@ NetSoft 2020 -Tutorial 4 - Demo1 Experiment 3
 
 ToDo ....
 <p align="center">
-    <embed src="images/demo1-exp3.pdf" width="100%" height="500"></embed>
+    <embed src="images/demo1-exp3.pdf" type="application/pdf" height="700px" width="500">
 </p>
 
 ## Installation
