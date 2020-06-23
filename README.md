@@ -64,7 +64,7 @@ Done! The software is successfully installed.
 We use the [openSTF](https://openstf.io/) tool to access the smartphone remotely.
 This software is available at http://localhost:7100, as is shown in the figure below.
 <p align="center">
-    <img src="images/openSTF.png"/> 
+    <img src="images/openSTF.png" height="450" width="450"/> 
 </p>
 
 We can see the smartphone connected in the network called Software Radio Systems LTE available. 
