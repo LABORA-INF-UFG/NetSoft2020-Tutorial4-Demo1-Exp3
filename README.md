@@ -69,7 +69,7 @@ This software is available at http://localhost:7100, as is shown in the figure b
 
 We can see the smartphone connected in the network called Software Radio Systems LTE available. 
 <p align="center">
-    <img src="images/connected.png"/> 
+    <img src="images/connected.png" height="450"/> 
 </p>
 
 We use the [PingTools Network Utilities](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=pt_BR) available at GooglePlay to test the connectivity of the network.
@@ -78,7 +78,10 @@ We use the [PingTools Network Utilities](https://play.google.com/store/apps/deta
     <img src="images/ping.png" height="450"/> 
 </p>
 
+## Additional comments
 
+In this experimentation, the SIM card used is of [sysmocom](https://www.sysmocom.de/index.html) with a Android Samsung Galaxy S7 SM-G930F.  
+SDR is a [Ettus B210](https://www.ettus.com/) with four antennas connected via USB in miniPC.  
 
 
 
