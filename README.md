@@ -1,6 +1,6 @@
 # NetSoft2020-Tutorial4-Demo1-Exp3
 
-This project aims to provide a set of tools to deploy a mobile network based on the [Software Radio Systems LTE](https://www.srslte.com/), as illustrated by the following image.
+This experiment aims to provide a set of tools to deploy a mobile network based on the [Software Radio Systems LTE](https://www.srslte.com/), as illustrated by the following image.
 <p align="center">
     <img src="images/demo1-exp3.png"/> 
 </p>
