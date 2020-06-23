@@ -31,20 +31,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 git clone https://github.com/LABORA-INF-UFG/NetSoft2020-Tutorial4-Demo1-Exp3.git
 ```
 
-# 2 - Build and running srsLTE images
+# 2 - Build the images and running the containers
 
 To build the eNB and EPC images use the follow command: 
 ```
 sudo docker build -t xxxx .
 ```
-
-To run the images  use the follow command: 
-```
-sudo docker-compose up -d
-```
-
-# 3 - Show the experiment !!! :)
-
 Check if the images are up:
 ```
 sudo docker image ls
@@ -56,6 +48,11 @@ The output should be similar to the following:
 
 Done! The software is successfully installed.
 
+To run the images  use the follow command: 
+```
+sudo docker-compose up -d
+```
+
 We can check if the containers are up:
 ```
 sudo docker-compose ps
@@ -64,4 +61,12 @@ The output should be similar to the following:
 <p align="center">
     <img src="images/containers_d1_e3.png"/> 
 </p>
+
+# 3 - Show the experiment !!! :)
+
+
+
+
+
+
 
