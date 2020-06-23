@@ -42,3 +42,5 @@ To run the images  use the follow command:
 ```
 sudo docker-compose up -d
 ```
+
+# 3 - Show the experiment !!! :)
