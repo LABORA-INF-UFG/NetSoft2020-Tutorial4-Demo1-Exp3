@@ -73,9 +73,9 @@ We can see the smartphone connected in the network called Software Radio Systems
 </p>
 
 We use the [PingTools Network Utilities](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=pt_BR) available at GooglePlay to test the connectivity of the network.
-<p align="center" height="150" width="150">
-    <img src="images/network.png"/> 
-    <img src="images/ping.png"/> 
+<p align="center">
+    <img src="images/network.png" height="150" width="150"/> 
+    <img src="images/ping.png" height="150" width="150"/> 
 </p>
 
 
