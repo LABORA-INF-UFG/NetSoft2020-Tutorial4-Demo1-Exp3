@@ -82,7 +82,7 @@ We use the [PingTools Network Utilities](https://play.google.com/store/apps/deta
 
 In this experimentation, the SIM card used is of [sysmocom](https://www.sysmocom.de/index.html) with a Android Samsung Galaxy S7 SM-G930F.
 
-The UE's information stores in HSS is available in the user_db.csv file. In this experiment, we use the values below:
+The UE's information stored in HSS is available in the user_db.csv file. In this experiment, we use the values below:
 ```
 sim0,mil,901700000028080,724d0f31f2259622700437430b7b5c6e,opc,1140620b2805d84b44643bfcfbe6218c,8080,00000028155b,7,dynamic
 ```
