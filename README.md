@@ -86,5 +86,5 @@ The UE's information stored in HSS is available in the user_db.csv file. In this
 ```
 sim0,mil,901700000028080,724d0f31f2259622700437430b7b5c6e,opc,1140620b2805d84b44643bfcfbe6218c,8080,00000028155b,7,dynamic
 ```
-SDR is an [Ettus B210](https://www.ettus.com/) with four antennas connected via USB in miniPC.  
+SDR is an [Ettus B210](https://www.ettus.com/) with four antennas connected via USB in mini PC.  
 
