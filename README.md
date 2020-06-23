@@ -13,4 +13,32 @@ The minimum hardware requirement and software to run this experiment is shown in
 </p>
 For this experiment, we assume that the machine have full access to the internet.
 
-# 1 Installation Guide
+# 1 Installation tools
+We need two tools to run this experiment, _Git_ and _Docker_
+
+To install _Git_ run the following command:
+```
+sudo sudo apt-get install git-all
+```
+
+To install _Docker_ run the following command:
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io (preciso checar. Precisa o compose?)
+```
+
+ After, we can clone the **NetSoft2020-Tutorial4-Demo1-Exp3 project**:
+```
+git clone https://github.com/LABORA-INF-UFG/NetSoft2020-Tutorial4-Demo1-Exp3.git
+```
+
+# 2 - Build and running srsLTE images
+
+To build the eNB and EPC images use the follow command: 
+```
+sudo docker build -t xxxx .
+```
+
+To run the images  use the follow command: 
+```
+sudo docker-compose up -d
+```
