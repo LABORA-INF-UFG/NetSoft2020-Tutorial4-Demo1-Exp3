@@ -18,7 +18,7 @@ We need two tools to run this experiment, _Git_ and _Docker_
 
 To install _Git_ run the following command:
 ```
-sudo sudo apt-get install git-all
+sudo apt-get install git-all
 ```
 
 To install _Docker_ run the following command:
@@ -44,3 +44,24 @@ sudo docker-compose up -d
 ```
 
 # 3 - Show the experiment !!! :)
+
+Check if the images are up:
+```
+sudo docker image ls
+```
+The output should be similar to the following:
+<p align="center">
+    <img src="images/images_d2_e3.png"/> 
+</p>
+
+Done! The software is successfully installed.
+
+We can check if the containers are up:
+```
+sudo docker-compose ps
+```
+The output should be similar to the following:
+<p align="center">
+    <img src="images/containers_d1_e3.png"/> 
+</p>
+
