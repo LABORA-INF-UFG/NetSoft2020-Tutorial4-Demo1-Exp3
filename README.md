@@ -33,11 +33,12 @@ git clone https://github.com/LABORA-INF-UFG/NetSoft2020-Tutorial4-Demo1-Exp3.git
 
 # 2 - Build the images and running the containers
 
-To build the eNB and EPC images use the follow command: 
+To build the eNB and EPC images and running the containers use the follow command: 
 ```
-sudo docker build -t xxxx .
+sudo docker-compose up -d
 ```
-Check if the images are up:
+
+You can check if the images are up:
 ```
 sudo docker image ls
 ```
@@ -46,14 +47,7 @@ The output should be similar to the following:
     <img src="images/images_d2_e3.png"/> 
 </p>
 
-Done! The software is successfully installed.
-
-To run the images  use the follow command: 
-```
-sudo docker-compose up -d
-```
-
-We can check if the containers are up:
+You can check if the containers are up:
 ```
 sudo docker-compose ps
 ```
@@ -62,7 +56,10 @@ The output should be similar to the following:
     <img src="images/containers_d1_e3.png"/> 
 </p>
 
-# 3 - Show the experiment !!! :)
+Done! The software is successfully installed.
+
+# 3 - Show the experiment
+
 
 
 
