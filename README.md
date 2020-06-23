@@ -67,7 +67,16 @@ This software is available at http://localhost:7100, as is shown in the figure b
     <img src="images/openSTF.png"/> 
 </p>
 
+We can see the smartphone connected in the network called Software Radio Systems LTE available. 
+<p align="center">
+    <img src="images/connected.png"/> 
+</p>
 
+We use the [PingTools Network Utilities](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=pt_BR) available at GooglePlay to test the connectivity of the network.
+<p align="center">
+    <img src="images/network.png"/> 
+    <img src="images/ping.png"/> 
+</p>
 
 
 
