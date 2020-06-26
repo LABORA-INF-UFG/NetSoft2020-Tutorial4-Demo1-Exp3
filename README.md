@@ -70,7 +70,7 @@ The output should be similar to the following:
 We use the [openSTF](https://openstf.io/) tool to access the smartphone remotely.
 This software is available at http://localhost:7100, as is shown in the image below.
 <p align="center">
-    <img src="images/openSTF.png" height="450" width="450"/> 
+    <img src="images/openSTF.png" height="450"/> 
 </p>
 
 We can see the smartphone connected in the network called Software Radio Systems LTE available. 
@@ -80,7 +80,7 @@ We can see the smartphone connected in the network called Software Radio Systems
 
 We use the [PingTools Network Utilities](https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools&hl=pt_BR) tool available at GooglePlay to test the connectivity of the network.
 <p align="center">
-    <img src="images/network.png" height="450"/> 
+    <img src="images/network.png" height="450"  width="450"/> 
     <img src="images/ping.png" height="450"/> 
 </p>
 
