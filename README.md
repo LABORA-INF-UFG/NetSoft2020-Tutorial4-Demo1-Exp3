@@ -4,7 +4,7 @@
 
 This experiment aims to provide a set of tools to deploy a mobile network, as illustrated by the following image. The containers compose of a RAN and the core of the 4G system. This experiment's main goal is to demonstrate a connection between UE in hardware (conventional cell phone), RAN in hardware (SDR - Software-Defined Radio) and software, and EPC core implemented in software.
 <p align="center">
-    <img src="images/demo1-exp3.png"/> 
+    <img src="images/demo1-exp3.png" height="300"/> 
 </p>
 
 ## Installation
