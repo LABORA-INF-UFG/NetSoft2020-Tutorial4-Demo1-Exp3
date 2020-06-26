@@ -47,7 +47,7 @@ sudo docker-compose up -d
 
 Done! The software is successfully installed.
 
-## Tets
+## Tests
 
 We can check if the images are up:
 ```
